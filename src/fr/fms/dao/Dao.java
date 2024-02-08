@@ -1,7 +1,3 @@
-/**
- 
- * 
- */
 
 package fr.fms.dao;
 

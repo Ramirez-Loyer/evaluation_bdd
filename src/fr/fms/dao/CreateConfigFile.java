@@ -4,11 +4,6 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.util.Properties;
 
-/**
- * programme permettant de regénérer le fichier de configuration
- * @author El babili - 2023
- * 
- */
 
 public class CreateConfigFile {
 	public static void main(String[] args) {

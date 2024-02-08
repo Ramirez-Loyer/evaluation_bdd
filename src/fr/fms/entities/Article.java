@@ -1,4 +1,5 @@
 package fr.fms.entities;
+import java.sql.Connection;
 
 public class Article {
 	private int id;

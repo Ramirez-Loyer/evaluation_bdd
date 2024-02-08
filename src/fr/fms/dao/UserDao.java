@@ -1,11 +1,3 @@
-/**
- * Composant d'accès aux données de la table T_Users
- * 
- * ToDo : le password n'est pas crypté avant d'être stocké en base
- * 
- * @author El babili - 2023
- * 
- */
 
 package fr.fms.dao;
 import java.sql.PreparedStatement;
