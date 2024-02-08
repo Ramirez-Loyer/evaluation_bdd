@@ -93,13 +93,13 @@ public class ArticleDao implements Dao<Article> {
 		} 	
 		return false;
 	}
-}
+
 
 
 	//Méthode qui renvoi tous les articles de la table T_Articles
 
-	//@Override
-	/*public ArrayList<Article> readAll() {
+	@Override
+	public ArrayList<Article> readAll() {
 		ArrayList<Article> articles = new ArrayList<Article>();
 		String strSql = "SELECT * FROM T_Articles";		
 		try(Statement statement = connection.createStatement()){
@@ -142,6 +142,6 @@ public class ArticleDao implements Dao<Article> {
 		} catch (SQLException e) {
 			logger.severe("pb sql sur renvoir des articles d'une catégorie " + e.getMessage());
 		}		
-		return  articles;*/
+		return  articles;
 	
 
