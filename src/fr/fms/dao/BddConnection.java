@@ -1,5 +1,6 @@
 package fr.fms.dao;
 
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -8,6 +9,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
 import java.util.logging.Logger;
+
 
 public class BddConnection {
 	private static Connection connection = null;
@@ -18,7 +20,7 @@ public class BddConnection {
 	
 	private static final Logger logger = Logger.getLogger(BddConnection.class.getName());
 	
-	private BddConnection() {
+	/*private BddConnection() {
 		try {
 			getConfigFile();								
 			Class.forName(driver);	

@@ -1,4 +1,4 @@
-package fms;
+
 
 import java.util.Scanner;
 import java.util.function.Predicate;
@@ -10,7 +10,7 @@ import fr.fms.dao.UserDao;
 import fr.fms.entities.Article;
 import fr.fms.entities.User;
 
-public class TestDaoComponents {	
+public class Test_Dao {	
 	
 	//----------------test les méthodes Crud du composant d'accès aux données : ArticleDao
 	
